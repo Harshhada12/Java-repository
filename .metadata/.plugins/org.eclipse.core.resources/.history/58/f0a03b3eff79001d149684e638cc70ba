@@ -1,0 +1,13 @@
+package Logical;
+
+public class ReverseNumWithoutConvert {
+
+	public static void main(String[] args) {
+	int number=1234;
+	int rev=0;
+	System.out.println(number%10);
+	int n1=number/10;
+	System.out.println(n1);
+	}
+
+}
