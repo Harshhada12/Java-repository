@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PropertiesNeoStox.NeoStoxValidateUserNameANDBalance">
+      <class name="UpStoxPOMUsingExcel.UpStoxTestUsingTestNg">
         <methods>
-          <include name="logOut"/>
-          <include name="loginToNeoStox"/>
-          <include name="closeApplication"/>
-          <include name="validateUserName"/>
-          <include name="launchNeoStox"/>
+          <include name="LogOutFromUpstox"/>
+          <include name="launchBrowser"/>
+          <include name="validateUserID"/>
+          <include name="loginToUpstox"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- PropertiesNeoStox.NeoStoxValidateUserNameANDBalance -->
+      </class> <!-- UpStoxPOMUsingExcel.UpStoxTestUsingTestNg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
